@@ -18,7 +18,7 @@ spec:
         app: backend
     spec:
       containers:
-      - image: evac_backend:latest
+      - image: europe-north1-docker.pkg.dev/cloud-evac/backend:latest
         name: network-backend
         env:
         - name: PORT
