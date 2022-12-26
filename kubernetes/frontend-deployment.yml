@@ -18,7 +18,7 @@ spec:
         app: frontend
     spec:
       containers:
-      - image: evac_frontend:latest
+      - image: europe-north1-docker.pkg.dev/cloud-exame/hello-repo/frontend
         name: network-frontend
         ports:
         - containerPort: 80
