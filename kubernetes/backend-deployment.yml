@@ -18,7 +18,7 @@ spec:
         app: backend
     spec:
       containers:
-      - image: europe-north1-docker.pkg.dev/cloud-evac/backend:latest
+      - image: europe-north1-docker.pkg.dev/cloud-exame/hello-repo/frontend
         name: network-backend
         env:
         - name: PORT
