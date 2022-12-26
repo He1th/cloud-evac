@@ -26,11 +26,11 @@ spec:
         - name: NODE_ENV
           value: "development" 
         - name: MONGO_DB_CONNECTION_STRING
-          value: "secret"
+          value: "mongodb+srv://testuser:root@cluster0.wpok3i5.mongodb.net/?retryWrites=true&w=majority"
         - name: MONGO_DB_NAME
           value: "cluster0"
         - name: REDIS_URI
-          value: "secret"
+          value: "rediss://default:AVNS_kMKKKHMw5BQGXUmfDHJ@redis-eab5b48-student-c1eb.aivencloud.com:20452"
         - name: CORS_ORIGIN
           value: "*"
         ports:
